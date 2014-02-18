@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3434C0726A146A43695601D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */; };
+		3434C2F0C5EE57106042BC77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C784868ADCCDEB2B8F93 /* Foundation.framework */; };
+		3434C4CE2BC9FA00771C4003 /* OKBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434C98777290ABE25ED01D6 /* OKBlurredView.m */; };
+		3434C6D78D0285D98B96EB3C /* OKBlurredView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3434CBD0C62E8BD987D211C2 /* OKBlurredView.h */; };
+		3434CA016D5522376B039DB8 /* libOKBlurredView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */; };
+		3434CBC141942A2B2C138309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C784868ADCCDEB2B8F93 /* Foundation.framework */; };
+		3434CBF5FA440E172E3FCEC4 /* OKBlurredViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */; };
+		3434CC8D3AC5359D75DC30E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C6BB92D241C6A309953D /* UIKit.framework */; };
+		3434CDB04AD76409911E9247 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C641528D9D2154BAC94A /* XCTest.framework */; };
+		C17617432FD24A8EA6654E31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50301BA50DF64FF683D2B567 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3434CDF35551D692A6FB8DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3434C4C3D2A91CCF7599AFC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3434C43C438636DA6C9B15B5;
+			remoteInfo = OKBlurredView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3434C72FFB0D5FD5FB803394 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3434C6D78D0285D98B96EB3C /* OKBlurredView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3434C0ADF76B680DE3AED36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3434C1B22967F209EF61225C /* OKBlurredView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKBlurredView-Prefix.pch"; sourceTree = "<group>"; };
+		3434C2691FB88C0378FFA561 /* OKBlurredViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OKBlurredViewTests-Info.plist"; sourceTree = "<group>"; };
+		3434C641528D9D2154BAC94A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3434C6BB92D241C6A309953D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3434C784868ADCCDEB2B8F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3434C7C8DFE94C1DCCB38414 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		3434C98777290ABE25ED01D6 /* OKBlurredView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKBlurredView.m; sourceTree = "<group>"; };
+		3434C9FE55C40C892B13CDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKBlurredViewTests.m; sourceTree = "<group>"; };
+		3434CBD0C62E8BD987D211C2 /* OKBlurredView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKBlurredView.h; sourceTree = "<group>"; };
+		3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKBlurredViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOKBlurredView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50301BA50DF64FF683D2B567 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3434C464B729A63C5D9D2053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3434CBC141942A2B2C138309 /* Foundation.framework in Frameworks */,
+				C17617432FD24A8EA6654E31 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3434C557563D23D148D2EB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3434CDB04AD76409911E9247 /* XCTest.framework in Frameworks */,
+				3434C2F0C5EE57106042BC77 /* Foundation.framework in Frameworks */,
+				3434CC8D3AC5359D75DC30E3 /* UIKit.framework in Frameworks */,
+				3434CA016D5522376B039DB8 /* libOKBlurredView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3434C08A5430A65163632CE9 /* OKBlurredView */ = {
+			isa = PBXGroup;
+			children = (
+				3434C942F266A4C725A608FA /* Supporting Files */,
+				3434CBD0C62E8BD987D211C2 /* OKBlurredView.h */,
+				3434C98777290ABE25ED01D6 /* OKBlurredView.m */,
+			);
+			path = OKBlurredView;
+			sourceTree = "<group>";
+		};
+		3434C094450312781686FA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3434C784868ADCCDEB2B8F93 /* Foundation.framework */,
+				3434C641528D9D2154BAC94A /* XCTest.framework */,
+				3434C6BB92D241C6A309953D /* UIKit.framework */,
+				50301BA50DF64FF683D2B567 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3434C59D603F5A8ECCF3DE64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3434C2691FB88C0378FFA561 /* OKBlurredViewTests-Info.plist */,
+				3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3434C88ADD35C7B39CF6E7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */,
+				3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3434C942F266A4C725A608FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3434C1B22967F209EF61225C /* OKBlurredView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3434CCB2BBA38B2270BC79DC /* OKBlurredViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3434C59D603F5A8ECCF3DE64 /* Supporting Files */,
+				3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */,
+			);
+			path = OKBlurredViewTests;
+			sourceTree = "<group>";
+		};
+		3434CDCDB8A520D03ECA0428 = {
+			isa = PBXGroup;
+			children = (
+				3434C88ADD35C7B39CF6E7AD /* Products */,
+				3434C094450312781686FA89 /* Frameworks */,
+				3434C08A5430A65163632CE9 /* OKBlurredView */,
+				3434CCB2BBA38B2270BC79DC /* OKBlurredViewTests */,
+				3434C0ADF76B680DE3AED36F /* Podfile */,
+				A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */,
+				3434C7C8DFE94C1DCCB38414 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3434C0151822DC8C4CB66DFB /* OKBlurredViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3434CC4F89124144E6BD7ABA /* Build configuration list for PBXNativeTarget "OKBlurredViewTests" */;
+			buildPhases = (
+				3434C2C35FEFB42A0B3219DC /* Sources */,
+				3434C557563D23D148D2EB98 /* Frameworks */,
+				3434C0F82BB15EA4D7FFB2F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3434C241208FCF9E5E04E9CC /* PBXTargetDependency */,
+			);
+			name = OKBlurredViewTests;
+			productName = OKBlurredViewTests;
+			productReference = 3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3434C43C438636DA6C9B15B5 /* OKBlurredView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3434C94A3AE9EE9A1565532E /* Build configuration list for PBXNativeTarget "OKBlurredView" */;
+			buildPhases = (
+				21713FCA4A9949A3AA7098D3 /* Check Pods Manifest.lock */,
+				3434C186142369F13A37D3FB /* Sources */,
+				3434C464B729A63C5D9D2053 /* Frameworks */,
+				3434C72FFB0D5FD5FB803394 /* CopyFiles */,
+				DE584AE4670D4AA5854C4E52 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OKBlurredView;
+			productName = OKBlurredView;
+			productReference = 3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3434C4C3D2A91CCF7599AFC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mathieu Amiot";
+			};
+			buildConfigurationList = 3434C0A55CBF7B5419507005 /* Build configuration list for PBXProject "OKBlurredView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3434CDCDB8A520D03ECA0428;
+			productRefGroup = 3434C88ADD35C7B39CF6E7AD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				3434C43C438636DA6C9B15B5 /* OKBlurredView */,
+				3434C0151822DC8C4CB66DFB /* OKBlurredViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3434C0F82BB15EA4D7FFB2F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3434C0726A146A43695601D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21713FCA4A9949A3AA7098D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE584AE4670D4AA5854C4E52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3434C186142369F13A37D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3434C4CE2BC9FA00771C4003 /* OKBlurredView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3434C2C35FEFB42A0B3219DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3434CBF5FA440E172E3FCEC4 /* OKBlurredViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3434C241208FCF9E5E04E9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3434C43C438636DA6C9B15B5 /* OKBlurredView */;
+			targetProxy = 3434CDF35551D692A6FB8DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3434C9FE55C40C892B13CDB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3434C204DC80AD70AB2EA9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKBlurredView/OKBlurredView-Prefix.pch";
+				INFOPLIST_FILE = "OKBlurredViewTests/OKBlurredViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		3434C2451C541B356A5322C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3434C3C4AB74B04EAC3082BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3434C64BFA536AE40BFCB3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKBlurredView/OKBlurredView-Prefix.pch";
+				INFOPLIST_FILE = "OKBlurredViewTests/OKBlurredViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3434C6A430BB76174E7DE277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/OKBlurredView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKBlurredView/OKBlurredView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		3434CF1E92EDAF4B5F79B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/OKBlurredView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKBlurredView/OKBlurredView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3434C0A55CBF7B5419507005 /* Build configuration list for PBXProject "OKBlurredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3434C3C4AB74B04EAC3082BC /* Release */,
+				3434C2451C541B356A5322C6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3434C94A3AE9EE9A1565532E /* Build configuration list for PBXNativeTarget "OKBlurredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3434C6A430BB76174E7DE277 /* Release */,
+				3434CF1E92EDAF4B5F79B952 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3434CC4F89124144E6BD7ABA /* Build configuration list for PBXNativeTarget "OKBlurredViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3434C204DC80AD70AB2EA9FE /* Release */,
+				3434C64BFA536AE40BFCB3BE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3434C4C3D2A91CCF7599AFC4 /* Project object */;
+}
