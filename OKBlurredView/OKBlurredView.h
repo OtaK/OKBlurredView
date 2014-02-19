@@ -12,5 +12,6 @@
 @interface OKBlurredView : UIView
 
 @property (nonatomic, setter=setRefreshRate:) float refreshRate;
+@property (nonatomic) IBOutlet UIView *targetView;
 
 @end

@@ -12,7 +12,7 @@
 @implementation OKBlurredView
 {
     NSTimer *_fps;
-    UIView *_blurView;
+    UIImageView *_blurView;
     GPUImageiOSBlurFilter *_blurFilter;
 }
 
@@ -20,19 +20,39 @@
 {
     self = [super init];
     if (self)
-    {
-        _blurFilter = [GPUImageiOSBlurFilter new];
-
-        _blurView = [[UIView alloc] initWithFrame:self.bounds];
-        NSLog(@"blurview : %@", _blurView);
-        [self addSubview:_blurView];
-
-        self.refreshRate = 30.0f;
-    }
+        [self _internalInit];
     return self;
 }
 
-- (void)setRefreshRate:(float)refreshRate {
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self)
+        [self _internalInit];
+
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self)
+        [self _internalInit];
+    
+    return self;
+}
+
+- (void)_internalInit
+{
+    _blurFilter = [GPUImageiOSBlurFilter new];
+    _blurView = [[UIImageView alloc] initWithFrame:self.bounds];
+    [self addSubview:_blurView];
+    _refreshRate = 10.0f;
+    [self _updateTimer];
+}
+
+- (void)setRefreshRate:(float)refreshRate
+{
     _refreshRate = refreshRate;
 
     [self _updateTimer];
@@ -42,26 +62,26 @@
 {
     [_fps invalidate];
     _fps = nil;
-    _fps = [NSTimer timerWithTimeInterval:(1.0f / _refreshRate)
-                                   target:self
-                                 selector:@selector(_updateBackgroundBlur)
-                                 userInfo:nil
-                                  repeats:YES];
+    NSTimeInterval delta = (1.0f / _refreshRate);
+    _fps = [NSTimer scheduledTimerWithTimeInterval:delta
+                                            target:self
+                                          selector:@selector(_updateBackgroundBlur)
+                                          userInfo:nil
+                                           repeats:YES];
 }
 
 - (void)_updateBackgroundBlur
 {
-    NSLog(@"superview: %@", self.superview);
-    if (!self.superview)
+    if (!_targetView)
         return;
-
-    CGRect snapBounds = self.bounds;
-    UIGraphicsBeginImageContext(snapBounds.size);
-    [self.superview drawViewHierarchyInRect:snapBounds afterScreenUpdates:YES];
+    
+    CGRect snapFrame = self.bounds;
+    NSLog(@"x=%f, y=%f, w=%f, h=%f", snapFrame.origin.x, snapFrame.origin.y, snapFrame.size.width, snapFrame.size.height);
+    UIGraphicsBeginImageContext(snapFrame.size);
+    [_targetView drawViewHierarchyInRect:snapFrame afterScreenUpdates:YES];
     UIImage *bg = [_blurFilter imageByFilteringImage:UIGraphicsGetImageFromCurrentImageContext()];
     UIGraphicsEndImageContext();
-    _blurView.backgroundColor = [UIColor colorWithPatternImage:bg];
-    [_blurView setNeedsDisplay];
+    _blurView.image = bg;
 }
 
 @end

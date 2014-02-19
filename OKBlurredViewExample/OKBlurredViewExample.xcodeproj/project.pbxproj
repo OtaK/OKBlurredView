@@ -181,6 +181,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Mathieu Amiot";
+				TargetAttributes = {
+					3434C7C69DC0082C5DC9FA3B = {
+						DevelopmentTeam = LYV9FLY8KW;
+					};
+				};
 			};
 			buildConfigurationList = 3434C5A4B8EB209EB2483B8C /* Build configuration list for PBXProject "OKBlurredViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -304,11 +309,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OKBlurredViewExample/OKBlurredViewExample-Prefix.pch";
 				INFOPLIST_FILE = "OKBlurredViewExample/OKBlurredViewExample-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -390,11 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OKBlurredViewExample/OKBlurredViewExample-Prefix.pch";
 				INFOPLIST_FILE = "OKBlurredViewExample/OKBlurredViewExample-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
