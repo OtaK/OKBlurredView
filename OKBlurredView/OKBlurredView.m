@@ -32,9 +32,16 @@
 }
 
 - (void)setRefreshRate:(float)refreshRate {
+    _refreshRate = refreshRate;
+
+    [self _updateTimer];
+}
+
+- (void)_updateTimer
+{
     [_fps invalidate];
     _fps = nil;
-    _fps = [NSTimer timerWithTimeInterval:(1.0f / self.refreshRate)
+    _fps = [NSTimer timerWithTimeInterval:(1.0f / _refreshRate)
                                    target:self
                                  selector:@selector(_updateBackgroundBlur)
                                  userInfo:nil

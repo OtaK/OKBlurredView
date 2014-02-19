@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3434C0726A146A43695601D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */; };
 		3434C2F0C5EE57106042BC77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C784868ADCCDEB2B8F93 /* Foundation.framework */; };
 		3434C4CE2BC9FA00771C4003 /* OKBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434C98777290ABE25ED01D6 /* OKBlurredView.m */; };
 		3434C6D78D0285D98B96EB3C /* OKBlurredView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3434CBD0C62E8BD987D211C2 /* OKBlurredView.h */; };
 		3434CA016D5522376B039DB8 /* libOKBlurredView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */; };
 		3434CBC141942A2B2C138309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C784868ADCCDEB2B8F93 /* Foundation.framework */; };
-		3434CBF5FA440E172E3FCEC4 /* OKBlurredViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */; };
 		3434CC8D3AC5359D75DC30E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C6BB92D241C6A309953D /* UIKit.framework */; };
-		3434CDB04AD76409911E9247 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3434C641528D9D2154BAC94A /* XCTest.framework */; };
 		C17617432FD24A8EA6654E31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50301BA50DF64FF683D2B567 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,16 +42,11 @@
 /* Begin PBXFileReference section */
 		3434C0ADF76B680DE3AED36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		3434C1B22967F209EF61225C /* OKBlurredView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKBlurredView-Prefix.pch"; sourceTree = "<group>"; };
-		3434C2691FB88C0378FFA561 /* OKBlurredViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OKBlurredViewTests-Info.plist"; sourceTree = "<group>"; };
-		3434C641528D9D2154BAC94A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3434C6BB92D241C6A309953D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3434C784868ADCCDEB2B8F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3434C7C8DFE94C1DCCB38414 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		3434C98777290ABE25ED01D6 /* OKBlurredView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKBlurredView.m; sourceTree = "<group>"; };
-		3434C9FE55C40C892B13CDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKBlurredViewTests.m; sourceTree = "<group>"; };
 		3434CBD0C62E8BD987D211C2 /* OKBlurredView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKBlurredView.h; sourceTree = "<group>"; };
-		3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKBlurredViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOKBlurredView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50301BA50DF64FF683D2B567 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -74,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3434CDB04AD76409911E9247 /* XCTest.framework in Frameworks */,
 				3434C2F0C5EE57106042BC77 /* Foundation.framework in Frameworks */,
 				3434CC8D3AC5359D75DC30E3 /* UIKit.framework in Frameworks */,
 				3434CA016D5522376B039DB8 /* libOKBlurredView.a in Frameworks */,
@@ -98,27 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				3434C784868ADCCDEB2B8F93 /* Foundation.framework */,
-				3434C641528D9D2154BAC94A /* XCTest.framework */,
 				3434C6BB92D241C6A309953D /* UIKit.framework */,
 				50301BA50DF64FF683D2B567 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3434C59D603F5A8ECCF3DE64 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3434C2691FB88C0378FFA561 /* OKBlurredViewTests-Info.plist */,
-				3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		3434C88ADD35C7B39CF6E7AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3434CFCB08F28EBDDBC1BD0D /* libOKBlurredView.a */,
-				3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,22 +111,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3434CCB2BBA38B2270BC79DC /* OKBlurredViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				3434C59D603F5A8ECCF3DE64 /* Supporting Files */,
-				3434CB8DD45BA1FA2C54388C /* OKBlurredViewTests.m */,
-			);
-			path = OKBlurredViewTests;
-			sourceTree = "<group>";
-		};
 		3434CDCDB8A520D03ECA0428 = {
 			isa = PBXGroup;
 			children = (
 				3434C88ADD35C7B39CF6E7AD /* Products */,
 				3434C094450312781686FA89 /* Frameworks */,
 				3434C08A5430A65163632CE9 /* OKBlurredView */,
-				3434CCB2BBA38B2270BC79DC /* OKBlurredViewTests */,
 				3434C0ADF76B680DE3AED36F /* Podfile */,
 				A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */,
 				3434C7C8DFE94C1DCCB38414 /* .gitignore */,
@@ -171,7 +141,6 @@
 			);
 			name = OKBlurredViewTests;
 			productName = OKBlurredViewTests;
-			productReference = 3434CC4526D14DEB50E880A6 /* OKBlurredViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3434C43C438636DA6C9B15B5 /* OKBlurredView */ = {
@@ -199,6 +168,7 @@
 		3434C4C3D2A91CCF7599AFC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = OK;
 				ORGANIZATIONNAME = "Mathieu Amiot";
 			};
 			buildConfigurationList = 3434C0A55CBF7B5419507005 /* Build configuration list for PBXProject "OKBlurredView" */;
@@ -226,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3434C0726A146A43695601D4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3434CBF5FA440E172E3FCEC4 /* OKBlurredViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +259,6 @@
 			targetProxy = 3434CDF35551D692A6FB8DE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3434CA1F35D6E4F1B0709DE4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3434C9FE55C40C892B13CDB3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3434C204DC80AD70AB2EA9FE /* Release */ = {
