@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3434C7C69DC0082C5DC9FA3B"
+               BuildableName = "OKBlurredViewExample.app"
+               BlueprintName = "OKBlurredViewExample"
+               ReferencedContainer = "container:OKBlurredViewExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3434C7C69DC0082C5DC9FA3B"
+            BuildableName = "OKBlurredViewExample.app"
+            BlueprintName = "OKBlurredViewExample"
+            ReferencedContainer = "container:OKBlurredViewExample.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

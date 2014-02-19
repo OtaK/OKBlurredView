@@ -24,6 +24,7 @@
         _blurFilter = [GPUImageiOSBlurFilter new];
 
         _blurView = [[UIView alloc] initWithFrame:self.bounds];
+        NSLog(@"blurview : %@", _blurView);
         [self addSubview:_blurView];
 
         self.refreshRate = 30.0f;
@@ -50,6 +51,7 @@
 
 - (void)_updateBackgroundBlur
 {
+    NSLog(@"superview: %@", self.superview);
     if (!self.superview)
         return;
 

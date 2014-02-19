@@ -17,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3434CCB4D6612206DCCDEA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3434C12370E2C5CF0FF44774 /* OKBlurredViewExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3434C893B8CA01A5396F74DB;
+			remoteInfo = OKBlurredViewExample;
+		};
 		3434CDF35551D692A6FB8DE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3434C4C3D2A91CCF7599AFC4 /* Project object */;
@@ -40,7 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3434C0ADF76B680DE3AED36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3434C0ADF76B680DE3AED36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3434C12370E2C5CF0FF44774 /* OKBlurredViewExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OKBlurredViewExample.xcodeproj; path = OKBlurredViewExample/OKBlurredViewExample.xcodeproj; sourceTree = "<group>"; };
 		3434C1B22967F209EF61225C /* OKBlurredView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKBlurredView-Prefix.pch"; sourceTree = "<group>"; };
 		3434C6BB92D241C6A309953D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3434C784868ADCCDEB2B8F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,6 +119,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3434CACAD69173315E33A351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3434C284F4D20CA896512DE5 /* OKBlurredViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3434CDCDB8A520D03ECA0428 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,7 @@
 				3434C0ADF76B680DE3AED36F /* Podfile */,
 				A16ADC5AC8904F2FAFFB5867 /* Pods.xcconfig */,
 				3434C7C8DFE94C1DCCB38414 /* .gitignore */,
+				3434C12370E2C5CF0FF44774 /* OKBlurredViewExample.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +199,10 @@
 			productRefGroup = 3434C88ADD35C7B39CF6E7AD /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 3434CACAD69173315E33A351 /* Products */;
+					ProjectRef = 3434C12370E2C5CF0FF44774 /* OKBlurredViewExample.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -190,6 +211,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3434C284F4D20CA896512DE5 /* OKBlurredViewExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OKBlurredViewExample.app;
+			remoteRef = 3434CCB4D6612206DCCDEA36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3434C0F82BB15EA4D7FFB2F8 /* Resources */ = {
@@ -371,7 +402,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/OKBlurredViewExample\"/**";
 			};
 			name = Release;
 		};
@@ -385,7 +416,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/OKBlurredViewExample\"/**";
 			};
 			name = Debug;
 		};
@@ -408,6 +439,7 @@
 				3434CF1E92EDAF4B5F79B952 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3434CC4F89124144E6BD7ABA /* Build configuration list for PBXNativeTarget "OKBlurredViewTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +448,7 @@
 				3434C64BFA536AE40BFCB3BE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4A057C0-07AD-47E6-9263-22AFC7FD4078</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OKBlurredView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A79E62D9-5564-49D1-9EE9-1B9CBEB380A9</key>
+		<string>ssh://github.com/OtaK/OKBlurredView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OKBlurredView.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A79E62D9-5564-49D1-9EE9-1B9CBEB380A9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/OtaK/OKBlurredView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A79E62D9-5564-49D1-9EE9-1B9CBEB380A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A79E62D9-5564-49D1-9EE9-1B9CBEB380A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OKBlurredView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
